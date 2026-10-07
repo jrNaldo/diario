@@ -2,4 +2,4 @@ Estudos
 Estudos
 Estou estudando Git.
 Aprendi sobre commits e staging.
-ESTOU ESTUDANDO JAVA
+ESTOU ESTUDANDO JAVA E GIT
