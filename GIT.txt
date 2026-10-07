@@ -1,0 +1,37 @@
+| Comando                            | O que faz                                                       |
+| ---------------------------------- | --------------------------------------------------------------- |
+| `git init`                         | Cria um repositório Git na pasta atual                          |
+| `git status`                       | Mostra o estado dos arquivos e da branch                        |
+| `git add .`                        | Adiciona todas as alterações ao staging                         |
+| `git add arquivo.txt`              | Adiciona um arquivo específico ao staging                       |
+| `git commit -m "mensagem"`         | Cria um commit com as alterações staged                         |
+| `git commit --amend -m "mensagem"` | Altera/substitui o último commit                                |
+| `git log`                          | Mostra o histórico completo de commits                          |
+| `git log --oneline`                | Mostra o histórico de forma resumida                            |
+| `git log --oneline --graph --all`  | Mostra histórico, branches e relações em gráfico                |
+| `git diff`                         | Mostra alterações ainda não adicionadas ao staging              |
+| `git diff --staged`                | Mostra alterações que já estão no staging                       |
+| `git diff commit1 commit2`         | Compara dois commits                                            |
+| `git checkout arquivo`             | Descarta alterações locais de um arquivo                        |
+| `git rm --cached arquivo`          | Remove o arquivo do staging, mas mantém o arquivo no computador |
+| `git clean -f`                     | Remove arquivos não rastreados                                  |
+| `git branch`                       | Lista as branches e indica a atual com `*`                      |
+| `git checkout -b nome`             | Cria uma branch e já muda para ela                              |
+| `git switch -c nome`               | Forma moderna de criar e mudar para uma branch                  |
+| `git switch nome`                  | Troca para outra branch                                         |
+| `git merge nome`                   | Junta uma branch na branch atual                                |
+| `git branch -d nome`               | Exclui uma branch com segurança                                 |
+| `git branch -D nome`               | Força a exclusão de uma branch                                  |
+| `git stash`                        | Guarda temporariamente alterações não commitadas                |
+| `git stash list`                   | Lista todos os stashes                                          |
+| `git stash apply`                  | Recupera o stash sem removê-lo                                  |
+| `git stash apply stash@{1}`        | Recupera um stash específico sem removê-lo                      |
+| `git stash pop`                    | Recupera o stash e remove-o da lista                            |
+| `git stash pop stash@{2}`          | Recupera um stash específico e remove-o                         |
+| `git stash drop stash@{1}`         | Remove um stash específico sem aplicá-lo                        |
+| `git stash drop`                   | Remove o stash mais recente                                     |
+| `git stash clear`                  | **Remove todos os stashes** ⚠️                                  |
+| `git stash show`                   | Mostra um resumo das alterações de um stash                     |
+| `git stash show stash@{2}`         | Mostra o resumo de um stash específico                          |
+| `git stash show -p`                | Mostra as alterações detalhadas do stash                        |
+| `git stash show -p stash@{2}`      | Mostra as alterações detalhadas de um stash específico          |
