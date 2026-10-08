@@ -1,9 +1,3 @@
-Estudos
-Estudos
 Estou estudando Git.
 Aprendi sobre commits e staging.
-ESTOU ESTUDANDO JAVA E GIT
-Estou na branch dev
-
-ESTOU ESTUDANDO JAVA E GIT
 Estou na branch dev
