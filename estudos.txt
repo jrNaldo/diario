@@ -1,3 +1,3 @@
-Estou estudando Git.
+Estou estudando Git e Github.
 Aprendi sobre commits e staging.
 
