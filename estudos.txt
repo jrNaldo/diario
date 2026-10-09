@@ -1,2 +1,3 @@
-Alteração feita na master, na branch de teste 2
+Alteração feita na master
+git 
 Aprendendo rebase na prática
