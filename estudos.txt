@@ -1,2 +1,2 @@
-Alteração feita na master
+Alteração feita na master, na branch de teste
 Aprendendo rebase na prática
